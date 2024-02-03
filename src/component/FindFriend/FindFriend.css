@@ -1,0 +1,45 @@
+.find-users-container {
+  min-width: 343px;
+  max-height: 395px;
+
+  background-color: rgb(255, 255, 255, 0.5);
+
+  padding: 17px 10px 16px 17px;
+  border-radius: 10px;
+  row-gap: 10px;
+}
+
+.friend-name-input {
+  min-width: 90%;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+ 
+  color: #35829F; 
+  font-family: Imprima, sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.friend-name-input::placeholder {
+  color: #35829F;
+}
+
+.all-users {
+  padding: 20px 10px 0 0;
+  border-radius: 20px;
+}
+
+.users-container {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 240px;
+}
+
+.users-container > * + *{
+  margin-top: 10px;
+}
